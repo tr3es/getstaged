@@ -1,0 +1,60 @@
+#components-layout-demo-top-side .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+
+.entete-home {
+    background-color: azure;
+}
+
+.titre-offer {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+#div-periode {
+    padding: 35px 40px 0 40px;
+    margin-bottom: 30px;
+}
+
+.titre-periode {
+    margin-left: 28px;
+    font-weight: bolder;
+}
+
+#titre-gestion {
+    margin: 40px 0 40px 68px;
+    font-weight: bolder;
+}
+
+.icon-space{
+    padding-right: 10px;
+}
+
+.content-offer {
+    padding-left: 30px;
+}
+
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-bar .ant-tabs-tab {
+    text-align: left !important;
+}
+
+#contentStudent {
+    padding: 0 15px 0 45px;
+    margin-top: 5%;
+    min-height: 200px;
+}
+
+.titre-periode-student{
+    font-weight: bolder;
+    margin: 15px 0 20px 0;
+}
+
+.files-stage-student{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}

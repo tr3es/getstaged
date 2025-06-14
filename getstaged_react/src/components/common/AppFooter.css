@@ -1,0 +1,96 @@
+#copyright {
+    padding-top: 10px;
+}
+
+#copyright > span:first-child::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#copyright > span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+/* Loading Indicator Style */
+.title-loader{
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 30%;
+}
+
+.-loading-block{
+    background-color: #f0f1f2;
+    height: 720px;
+}
+
+.-loading {
+    margin-top: 30%;
+}
+
+
+footer h4.h05 {
+    color: #FFFFFF;
+    padding-bottom: 4.2rem;
+    margin-bottom: 3.6rem;
+}
+
+.h05 {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    /*letter-spacing: .2rem;*/
+}
+
+.hrFoot{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.textFoot{
+    text-align: left;
+    font-size: 15px;
+}
+
+.home-social-list {
+    margin: 0;
+    padding-top: 15px;
+    list-style: none;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+element.style {
+}
+.js .animate-this, .js .animate-intro {
+    opacity: 0;
+}
+.home-social-list li {
+    padding-left: 0;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.iconBrand{
+    padding-right: 10px;
+}

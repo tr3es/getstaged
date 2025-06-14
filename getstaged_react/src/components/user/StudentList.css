@@ -1,0 +1,28 @@
+.no-students-found {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.load-more-students {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ant-badge-status-processing {
+    background-color: #5bd152 !important;
+    position: relative;
+}
+
+.ant-badge-status-processing:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #5bd152 !important;
+  content: '';
+  -webkit-animation: antStatusProcessing 1.2s infinite ease-in-out;
+  animation: antStatusProcessing 1.2s infinite ease-in-out;
+}

@@ -1,0 +1,10 @@
+.no-students-found {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.load-more-students {
+    text-align: center;
+    margin-bottom: 40px;
+}

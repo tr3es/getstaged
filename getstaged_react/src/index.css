@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.7em;
+    }
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf');
+    src: url('./fonts/Roboto-Regular.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.ttf');
+    src: url('./fonts/Roboto-Bold.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Thin.ttf');
+    src: url('./fonts/Roboto-Thin.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Thin.ttf') format('woff'),
+    url('./fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Medium.ttf');
+    src: url('./fonts/Roboto-Medium.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Medium.ttf') format('woff'),
+    url('./fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Italic.ttf');
+    src: url('./fonts/Roboto-Italic.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Italic.ttf') format('woff'),
+    url('./fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Light.ttf');
+    src: url('./fonts/Roboto-Light.ttf?#iefix') format('embedded-opentype'),
+    url('./fonts/Roboto-Light.ttf') format('woff'),
+    url('./fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
